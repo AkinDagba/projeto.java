@@ -2,21 +2,21 @@ package projetinho;
 
 public class Professor extends Pessoa {
 
-	private String registro;
+	private String siape;
 	
-	public Professor(String nome, String cpf, String registro) 
+	public Professor(String nome, String cpf, String siape) 
 	{
 		super(nome, cpf);
 		
-		this.setRegistro(registro);
+		this.setSiape(siape, siape);
 	}
 
-	public String getRegistro() {
-		return registro;
+	public String getSiape() {
+		return siape;
 	}
 
-	public void setRegistro(String registro) {
-		this.registro = registro;
+	public void setSiape(String Siape, String siape) {
+		this.siape = siape;
 	}
 
 	

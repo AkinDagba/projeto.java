@@ -2,19 +2,19 @@ package projetinho;
 
 public class Aluno extends Pessoa {
 
-	private int matricula;
+	private String matricula;
 	
-	public Aluno(String nome, String cpf, int matricula) 
+	public Aluno(String nome, String cpf, String matricula) 
 	{
 		super(nome, cpf);	
 		this.setMatricula(matricula);
 	}
 
-	public int getMatricula() {
+	public String getMatricula() {
 		return matricula;
 	}
 
-	public void setMatricula(int matricula) {
+	public void setMatricula(String matricula) {
 		this.matricula = matricula;
 	}
 
